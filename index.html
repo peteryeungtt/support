@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="accordion.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>KnowledgeBase</title>
+  <link rel="icon" href="img/search-icon.png" type="image/icon type">
+</head>
+
+<body>
+  <input type="text" placeholder="Keyword Search" name="search" id="search" data-type="accordion-search" class="searchbar">
+  <br>
+  <p class="inline">Category</p>
+  <select name="filter" id="filter" class="filtercatergories" data-type="accordion-filter">
+    <option value="default">All</option>
+    <option value="TaxTerms">Tax Terms</option>
+    <option value="Setup">Setup</option>
+  </select>
+  <br><br><br>
+  <div id="shadowbox" class="Container-main">
+    <section id="accordion">
+
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <center class="centertext">
+          Tax Terms
+        </center>
+        <p data-type="accordion-section-title">ACTC = Additional Child Tax Credit &rarr;<font class="locationfont"> Deductions/Credits - Form 8812</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Worth up to $1,400 for each qualifying child.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">AGI = Adjusted Gross Income &rarr;<font class="locationfont"> Federal - Form 1040 line 11</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Gross income minus allowable reductions</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">AMT = Alternative Minimum Tax &rarr;<font class="locationfont"> Tax & Payments - Form 6251</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Designed to collect at least a minumum amount of tax from taxpayers who benefit from the tax laws that give special treatment to certain kinds of income and allow deductions
+          and credits for certain kinds of expenses.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">AOTC = American Opportunity Tax Credit &rarr;<font class="locationfont"> Deductions/Credits - Form 8863(2)</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">For qualified education expenses paid for an eligible student for the first four years of higher education.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">Charitable Contributions &rarr;<font class="locationfont"> Deductions/Credits - Schedule A</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Is a type of itemized deduction. Can earn you an itemized tax deduction when you donate to a qualifying non-profit organization, charity, or private foundation.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">CTC = Child Tax Credit &rarr;<font class="locationfont"> Deductions/Credits - Form 1040 CTC</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">A tax credit available to people with Children under the age of seventeen. </div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">Deductions</p>
+        <div class="accordion-content" data-type="accordion-section-body">Are items or expenses subtracted from your income to reduce the amount of income that is subject to being taxed.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">EIC = Earned Income Credit &rarr;<font class="locationfont"> Deductions/Credits - Form 1040 EIC</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">A tax credit allowed to employed individuals whose income and modified gross income is less than a certain amount.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">EIN = Employer Identification Number &rarr;<font class="locationfont"> Toolbox - Firm Setup - User</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Nine-digit number assigned by the IRS in the following format XX-XXXXXXX.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">EFIN = Electronic Filer Identification Number &rarr;<font class="locationfont"> Toolbox - Firm Setup - EFIN</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">6 Digit Number issued by the IRS to individuals or firms that have been approved as Authorized IRS e-file providers.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">EA = Enrolled Agent</p>
+        <div class="accordion-content" data-type="accordion-section-body">A tax preparer who, virtue of passing a tough IRS test or prior IRS work experience, can represent clients at IRS audits and appeals.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">ERO = Electronic Return Originator &rarr;<font class="locationfont"> Toolbox - Firm Setup - User</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Person or business that originates federal income tax returns electronically for the Internal Revenue Service. With approval and appropriate software.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">Filing Status &rarr;<font class="locationfont"> Federal - Client Information Sheet</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Taxpayer categories that determine the amount of tax and /or tax credits that apply to different taxpayers. 5 filing status: Single, Married filing jointly, Married filing separately, Head of Household, Qualifying widow(er) with dependent child</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">Gross Income &rarr;<font class="locationfont"> Federal - Form 1040 Line 9</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Taxpayer categories that determine the amount of tax and /or tax credits that apply to different taxpayers.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">HOH = Head Of Household &rarr;<font class="locationfont"> Federal - Client Information Sheet - 4th Filing Status</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">A filing status used by an unmarried taxpayer who pays over half of the cost of maintaining the home of a qualified individual.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">HSA = Health Savings Account &rarr;<font class="locationfont"> Adjustments - Form 8889</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Tax-exempt account that you set up with a trustee, such as a bank or insurance company, to pay or reimburse certain medical expenses you incur.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">IRS = Internal Revenue Service</p>
+        <div class="accordion-content" data-type="accordion-section-body">The Treasury Department division responsible for collecting taxes.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">IRA = Individual Retirement Account &rarr;<font class="locationfont"> Adjustments - Form 1040 IRA</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">A tax-sheltered savings plan set up by the taxpayer, generally for retirement income.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">MFJ = Married Filing Jointly &rarr;<font class="locationfont"> Federal - Client Information Sheet - 2nd Filing Status</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">A filing status used by a couple that is married at the end of the year and uses one tax return.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">MFS = Married Filing Separately &rarr;<font class="locationfont"> Federal - Client Information Sheet - 3rd Filing Status </font></p>
+        <div class="accordion-content" data-type="accordion-section-body">The filing status used by a couple that is married at the end of the year and chooses to file separate tax returns.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">ODC = Other Dependent Credit &rarr;<font class="locationfont"> Deductions/Credits - Form 1040 CTC </font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Non-refundable tax credit of up to $500 per qualifying person.  For each eligible dependent, who cannot be claimed for the child tax credit.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">PTIN = Practiioner Tax Identification Number &rarr;<font class="locationfont"> Toolbox - Firm Setup - User </font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Identification number issues by the IRS to a professional tax preparer.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">Qualifying Widower &rarr;<font class="locationfont"> Federal - Client Information Sheet - 5th Filing Status </font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Status that allows you to retain the benefits of a MFJ status for 2 years after the year of your spouse’s death.  Must have a dependent child to file with this status.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">STIN = State Tax Identification Number &rarr;<font class="locationfont"> Toolbox - Firm Setup - User</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Serves as a reference for your business tax licenses, liabilities, and credits.  Mostly used by VITA sites.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">Taxable Income &rarr;<font class="locationfont"> Federal - Form 1040 Line 15</font></p>
+        <div class="accordion-content" data-type="accordion-section-body">Determines your tax liability before tax credits.</div>
+      </div>
+      <div data-type="accordion-section" data-filter="TaxTerms">
+        <p data-type="accordion-section-title">Withholding</p>
+        <div class="accordion-content" data-type="accordion-section-body">Portion of your paycheck that your employer sends directly to the government each pay period as partial payment of your income tax.</div>
+      </div>
+      <br>
+      <div data-type="accordion-section" data-filter="Setup">
+        <center class="centertext">
+          Setup
+        </center>
+        <p data-type="accordion-section-title">EFIN /PTIN Application Summary</p>
+        <div class="accordion-content" data-type="accordion-section-body">https://www.irs.gov/ &#129106; <img src="img/taxpros.png" alt="Tax Pros" width="" height=""></div>
+      </div>
+    </section>
+  </div>
+  <script>
+    $(document).ready(function() {
+      $("#accordion").accordion();
+    });
+  </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+
+</html>
